@@ -21,3 +21,5 @@ These keys can be used in mbox object, you can choose as per your requirement
  'X-Notifications', 'X-Notifications-Bounce-Info', 'Message-ID', 'Subject',
  'From', 'To', 'Content-Type']
 ```
+
+Note: we could have analysed the data by directly reading the file too, but parsing mbox is time consuming process. Better to have results generated in one go, then experiment on further results later.
